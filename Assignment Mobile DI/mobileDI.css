@@ -1,0 +1,55 @@
+body{
+    background-color: #80808042;;
+}
+
+ul{
+    list-style-type: none;
+    background-color: white;
+    width: 90%;
+    padding: 15px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+button {
+    color: #ffffffa6;
+    border: none;
+    background-color: #008000b8;
+    font-size: 15px;
+    padding: 5px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:hover  {
+    background-color: green;
+    color: white;
+  }
+
+#details{
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    margin: 60px;
+    padding: 25px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+/* media queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+    #details{
+        margin: 20px;
+    }
+} 
+
+
+
+
+
